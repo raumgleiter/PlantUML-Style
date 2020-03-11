@@ -21,7 +21,6 @@
 
 
 
-
 '******************************************************************************
 
 !ifndef FONTNAME
@@ -31,6 +30,14 @@
 !ifndef FONTSIZE
 !define FONTSIZE 11
 !endif
+
+'-----------------------------------------------------------------------------
+
+!define DarkRed 8B0000
+!define Teal 008080
+!define DarkGreen 006400
+!define MidnightBlue 191970
+!define DarkSlateBlue 483D8B
 
 '-----------------------------------------------------------------------------
 
@@ -71,12 +78,22 @@ skinparam backgroundColor BACKGROUND
   stereotypeFontSize FONTSIZE
 !endfunction
 
+!function color_style()
+  fontColor<<RED>> DarkRed
+  fontColor<<TEAL>> Teal
+  fontColor<<GREEN>> DarkGreen
+  fontColor<<BLUE>> MidnightBlue
+  fontColor<<PURPLE>> DarkSlateBlue
+!endfunction
+
 !function basic_style()
+  color_style()
   backgroundColor BOXBG
   borderColor BORDERCOLOR
 !endfunction
 
 !function hidden_style()
+  color_style()
   backgroundColor BACKGROUND
   borderColor BOXBG
   'borderColor BACKGROUND
@@ -292,7 +309,6 @@ skinparam storage {
 
 
 
-
 '******************************************************************************
 
 skinparam defaultTextAlignment center
@@ -334,7 +350,7 @@ usecase usecase_complex [
   Where?
   on my cellphone
 ]
-usecase usecase_pretty [
+usecase usecase_pretty<<TEAL>> [
   <$phone>
   Call me!
 ]
