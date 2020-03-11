@@ -5,6 +5,8 @@
 !define STYLE_RG
 !include <tupadr3/common>
 !include <tupadr3/font-awesome/rocket>
+!include <tupadr3/font-awesome/phone>
+!include <tupadr3/font-awesome/user>
 
 
 
@@ -42,7 +44,8 @@ skinparam stereotypeCBackgroundColor ACCENTDARK
 !define ARROWFONTCOLOR 333
 !define BORDERCOLOR fff
 !define BOXBG eee
-skinparam backgroundColor fff
+!define BACKGROUND fff
+skinparam backgroundColor BACKGROUND
 !endif
 
 '-----------------------------------------------------------------------------
@@ -71,6 +74,11 @@ skinparam backgroundColor fff
 !function basic_style()
   backgroundColor BOXBG
   borderColor BORDERCOLOR
+!endfunction
+
+!function hidden_style()
+  backgroundColor BACKGROUND
+  borderColor BACKGROUND
 !endfunction
 
 !function accent_style()
@@ -153,8 +161,9 @@ skinparam file {
 }
 
 skinparam card {
-  basic_style()
+  hidden_style()
   font_style()
+  defaultTextAlignment center
 }
 
 skinparam iframe {
@@ -190,7 +199,7 @@ skinparam queue {
 ' Use Case diagrams
 
 skinparam usecase {
-  basic_style()
+  hidden_style()
   font_style()
   arrow_style()
 }
@@ -282,11 +291,10 @@ skinparam storage {
 
 
 
-'-----------------------------------------------------------------------------
-
-left to right direction
 
 '******************************************************************************
+
+skinparam defaultTextAlignment center
 
 actor actor
 agent agent
@@ -313,6 +321,14 @@ usecase usecase
 database database_pretty [
   <$rocket>
   Rockets rock!
+]
+card card_pretty [
+  <$phone>
+  Call me!
+]
+usecase usecase_pretty [
+  <$phone>
+  Call me!
 ]
 
 actor --> database_pretty

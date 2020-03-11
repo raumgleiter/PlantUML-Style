@@ -1,4 +1,3 @@
-
 '******************************************************************************
 
 !ifndef FONTNAME
@@ -21,7 +20,8 @@ skinparam stereotypeCBackgroundColor ACCENTDARK
 !define ARROWFONTCOLOR 333
 !define BORDERCOLOR fff
 !define BOXBG eee
-skinparam backgroundColor fff
+!define BACKGROUND fff
+skinparam backgroundColor BACKGROUND
 !endif
 
 '-----------------------------------------------------------------------------
@@ -50,6 +50,11 @@ skinparam backgroundColor fff
 !function basic_style()
   backgroundColor BOXBG
   borderColor BORDERCOLOR
+!endfunction
+
+!function hidden_style()
+  backgroundColor BACKGROUND
+  borderColor BACKGROUND
 !endfunction
 
 !function accent_style()
@@ -132,8 +137,9 @@ skinparam file {
 }
 
 skinparam card {
-  basic_style()
+  hidden_style()
   font_style()
+  defaultTextAlignment center
 }
 
 skinparam iframe {
@@ -169,7 +175,7 @@ skinparam queue {
 ' Use Case diagrams
 
 skinparam usecase {
-  basic_style()
+  hidden_style()
   font_style()
   arrow_style()
 }
