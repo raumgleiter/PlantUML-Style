@@ -1,3 +1,24 @@
+# PlantUML | Deployment Diagram
+
+``` plantuml
+@startuml
+!define STYLE_RG
+!include <tupadr3/common>
+!include <tupadr3/font-awesome/rocket>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 '******************************************************************************
 
@@ -243,3 +264,78 @@ skinparam storage {
   basic_style()
   font_style()
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'-----------------------------------------------------------------------------
+
+left to right direction
+
+'******************************************************************************
+
+actor actor
+agent agent
+artifact artifact
+boundary boundary
+card card
+cloud cloud
+component component
+control control
+database database
+entity entity
+file file
+folder folder
+frame frame
+interface  interface
+node node
+package package
+queue queue
+stack stack
+rectangle rectangle
+storage storage
+usecase usecase
+
+database database_pretty [
+  <$rocket>
+  Rockets rock!
+]
+
+actor --> database_pretty
+
+artifact Foo1 {
+  folder Foo2
+}
+folder Foo3 {
+  artifact Foo4
+}
+frame Foo5 {
+  database Foo6
+}
+cloud vpc {
+  node ec2 {
+	stack stacky
+  }
+}
+
+
+
+'-----------------------------------------------------------------------------
+'-----------------------------------------------------------------------------
+
+@enduml
+```
