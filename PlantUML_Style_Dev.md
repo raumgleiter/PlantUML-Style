@@ -23,7 +23,7 @@
 '******************************************************************************
 
 !ifndef FONTNAME
-!define FONTNAME "Verdana"
+!define FONTNAME "sans-serif"
 !endif
 
 !ifndef FONTSIZE
