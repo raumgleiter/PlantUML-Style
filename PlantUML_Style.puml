@@ -13,12 +13,12 @@
 '-----------------------------------------------------------------------------
 
 !ifdef STYLE_RG
-!define PRIMARY fff
-!define SECONDARY aaa
-!define ARROWCOLOR fff
-!define ARROWFONTCOLOR bbb
-!define BORDERCOLOR 1b1b1b
-!define BOXBG 2e2e2e
+!define PRIMARY 000
+!define SECONDARY 333
+!define ARROWCOLOR 000
+!define ARROWFONTCOLOR 333
+!define BORDERCOLOR aaa
+!define BOXBG ccc
 skinparam backgroundColor fff
 !endif
 
