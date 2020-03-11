@@ -256,7 +256,7 @@ skinparam cloud {
 }
 
 skinparam rectangle {
-  basic_style()
+  accent_style()
   font_style()
 }
 
@@ -319,6 +319,9 @@ actor --> database_pretty
 
 artifact Foo1 {
   folder Foo2
+}
+rectangle Foo7 {
+  agent Foo8
 }
 folder Foo3 {
   artifact Foo4
