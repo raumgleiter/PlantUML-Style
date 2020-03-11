@@ -38,6 +38,7 @@
 !define DarkGreen 006400
 !define MidnightBlue 191970
 !define DarkSlateBlue 483D8B
+!define Sienna A0522D
 
 '-----------------------------------------------------------------------------
 
@@ -84,6 +85,7 @@ skinparam backgroundColor BACKGROUND
   fontColor<<GREEN>> DarkGreen
   fontColor<<BLUE>> MidnightBlue
   fontColor<<PURPLE>> DarkSlateBlue
+  fontColor<<ORANGE>> Sienna
 !endfunction
 
 !function basic_style()
@@ -350,7 +352,7 @@ usecase usecase_complex [
   Where?
   on my cellphone
 ]
-usecase usecase_pretty<<TEAL>> [
+usecase usecase_pretty<<ORANGE>> [
   <$phone>
   Call me!
 ]
