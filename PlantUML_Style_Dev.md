@@ -39,6 +39,10 @@
 !define MidnightBlue 191970
 !define DarkSlateBlue 483D8B
 !define Sienna A0522D
+!define DarkGoldenrod B8860B
+!define MediumVioletRed C71585
+!define OliveDrab 6B8E23
+!define DarkOliveGreen 556B2F
 
 '-----------------------------------------------------------------------------
 
@@ -86,6 +90,9 @@ skinparam backgroundColor BACKGROUND
   fontColor<<BLUE>> MidnightBlue
   fontColor<<PURPLE>> DarkSlateBlue
   fontColor<<ORANGE>> Sienna
+  fontColor<<GOLD>> DarkGoldenrod
+  fontColor<<VIOLET>> MediumVioletRed
+  fontColor<<OLIVE>> DarkOliveGreen
 !endfunction
 
 !function basic_style()
@@ -345,14 +352,14 @@ card card_pretty [
   <$phone>
   Call me!
 ]
-usecase usecase_complex [
+usecase usecase_complex<<OLIVE>> [
   <$phone>
   Call me!
   ---
   Where?
   on my cellphone
 ]
-usecase usecase_pretty<<ORANGE>> [
+usecase usecase_pretty<<GREEN>> [
   <$phone>
   Call me!
 ]

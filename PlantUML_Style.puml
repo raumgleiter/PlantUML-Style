@@ -17,6 +17,10 @@
 !define MidnightBlue 191970
 !define DarkSlateBlue 483D8B
 !define Sienna A0522D
+!define DarkGoldenrod B8860B
+!define MediumVioletRed C71585
+!define OliveDrab 6B8E23
+!define DarkOliveGreen 556B2F
 
 '-----------------------------------------------------------------------------
 
@@ -64,6 +68,9 @@ skinparam backgroundColor BACKGROUND
   fontColor<<BLUE>> MidnightBlue
   fontColor<<PURPLE>> DarkSlateBlue
   fontColor<<ORANGE>> Sienna
+  fontColor<<GOLD>> DarkGoldenrod
+  fontColor<<VIOLET>> MediumVioletRed
+  fontColor<<OLIVE>> DarkOliveGreen
 !endfunction
 
 !function basic_style()
