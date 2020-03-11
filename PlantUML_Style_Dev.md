@@ -55,7 +55,7 @@ skinparam stereotypeCBackgroundColor ACCENTDARK
 !define ARROWCOLOR 666
 !define ARROWFONTCOLOR 333
 !define BORDERCOLOR fff
-!define BOXBG bbb
+!define BOXBG ccc
 !define BACKGROUND fff
 skinparam backgroundColor BACKGROUND
 !endif
