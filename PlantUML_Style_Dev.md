@@ -4,9 +4,9 @@
 @startuml
 !define STYLE_RG
 !include <tupadr3/common>
-!include <tupadr3/font-awesome/rocket>
-!include <tupadr3/font-awesome/phone>
-!include <tupadr3/font-awesome/user>
+!include <tupadr3/font-awesome-5/rocket>
+!include <tupadr3/font-awesome-5/phone>
+!include <tupadr3/font-awesome-5/user>
 
 
 
@@ -78,7 +78,8 @@ skinparam backgroundColor BACKGROUND
 
 !function hidden_style()
   backgroundColor BACKGROUND
-  borderColor BACKGROUND
+  borderColor BOXBG
+  'borderColor BACKGROUND
 !endfunction
 
 !function accent_style()
@@ -326,6 +327,13 @@ card card_pretty [
   <$phone>
   Call me!
 ]
+usecase usecase_complex [
+  <$phone>
+  Call me!
+  ---
+  Where?
+  on my cellphone
+]
 usecase usecase_pretty [
   <$phone>
   Call me!
@@ -342,8 +350,8 @@ rectangle Foo7 {
 folder Foo3 {
   artifact Foo4
 }
-frame Foo5 {
-  database Foo6
+cloud Foo5 {
+  card Foo6
 }
 cloud vpc {
   node ec2 {

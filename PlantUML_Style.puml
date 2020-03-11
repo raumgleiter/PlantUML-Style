@@ -1,3 +1,4 @@
+
 '******************************************************************************
 
 !ifndef FONTNAME
@@ -54,7 +55,8 @@ skinparam backgroundColor BACKGROUND
 
 !function hidden_style()
   backgroundColor BACKGROUND
-  borderColor BACKGROUND
+  borderColor BOXBG
+  'borderColor BACKGROUND
 !endfunction
 
 !function accent_style()
