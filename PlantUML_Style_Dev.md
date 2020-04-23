@@ -75,15 +75,15 @@ skinparam backgroundColor BACKGROUND
 
 '-----------------------------------------------------------------------------
 
-!function font_style()
+!procedure font_style()
   fontColor PRIMARY
   fontName FONTNAME
   fontSize FONTSIZE
   stereotypeFontColor SECONDARY
   stereotypeFontSize FONTSIZE
-!endfunction
+!endprocedure
 
-!function color_style()
+!procedure color_style()
   fontColor<<RED>> DarkRed
   fontColor<<TEAL>> Teal
   fontColor<<GREEN>> DarkGreen
@@ -93,32 +93,32 @@ skinparam backgroundColor BACKGROUND
   fontColor<<GOLD>> DarkGoldenrod
   fontColor<<VIOLET>> MediumVioletRed
   fontColor<<OLIVE>> DarkOliveGreen
-!endfunction
+!endprocedure
 
-!function basic_style()
+!procedure basic_style()
   color_style()
   backgroundColor BOXBG
   borderColor BORDERCOLOR
-!endfunction
+!endprocedure
 
-!function hidden_style()
+!procedure hidden_style()
   color_style()
   backgroundColor BACKGROUND
   borderColor BOXBG
   'borderColor BACKGROUND
-!endfunction
+!endprocedure
 
-!function accent_style()
+!procedure accent_style()
   backgroundColor ACCENT
   borderColor ACCENTDARK
-!endfunction
+!endprocedure
 
-!function arrow_style()
+!procedure arrow_style()
   arrowColor ARROWCOLOR
   arrowFontName FONTNAME
   arrowFontColor ARROWFONTCOLOR
   arrowFontSize FONTSIZE
-!endfunction
+!endprocedure
 
 ' Class diagrams
 
