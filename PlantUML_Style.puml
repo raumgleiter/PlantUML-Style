@@ -59,6 +59,7 @@ skinparam backgroundColor BACKGROUND
   fontSize FONTSIZE
   stereotypeFontColor SECONDARY
   stereotypeFontSize FONTSIZE
+  !return true
 !endfunction
 
 !function color_style()
@@ -71,12 +72,14 @@ skinparam backgroundColor BACKGROUND
   fontColor<<GOLD>> DarkGoldenrod
   fontColor<<VIOLET>> MediumVioletRed
   fontColor<<OLIVE>> DarkOliveGreen
+  !return true
 !endfunction
 
 !function basic_style()
   color_style()
   backgroundColor BOXBG
   borderColor BORDERCOLOR
+  !return true
 !endfunction
 
 !function hidden_style()
@@ -84,11 +87,13 @@ skinparam backgroundColor BACKGROUND
   backgroundColor BACKGROUND
   borderColor BOXBG
   'borderColor BACKGROUND
+  !return true
 !endfunction
 
 !function accent_style()
   backgroundColor ACCENT
   borderColor ACCENTDARK
+  !return true
 !endfunction
 
 !function arrow_style()
@@ -96,6 +101,7 @@ skinparam backgroundColor BACKGROUND
   arrowFontName FONTNAME
   arrowFontColor ARROWFONTCOLOR
   arrowFontSize FONTSIZE
+  !return true
 !endfunction
 
 ' Class diagrams
