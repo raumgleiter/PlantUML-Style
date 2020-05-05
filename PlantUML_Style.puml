@@ -53,15 +53,15 @@ skinparam backgroundColor BACKGROUND
 
 '-----------------------------------------------------------------------------
 
-!procedure font_style()
+!function font_style()
   fontColor PRIMARY
   fontName FONTNAME
   fontSize FONTSIZE
   stereotypeFontColor SECONDARY
   stereotypeFontSize FONTSIZE
-!endprocedure
+!endfunction
 
-!procedure color_style()
+!function color_style()
   fontColor<<RED>> DarkRed
   fontColor<<TEAL>> Teal
   fontColor<<GREEN>> DarkGreen
@@ -71,32 +71,32 @@ skinparam backgroundColor BACKGROUND
   fontColor<<GOLD>> DarkGoldenrod
   fontColor<<VIOLET>> MediumVioletRed
   fontColor<<OLIVE>> DarkOliveGreen
-!endprocedure
+!endfunction
 
-!procedure basic_style()
+!function basic_style()
   color_style()
   backgroundColor BOXBG
   borderColor BORDERCOLOR
-!endprocedure
+!endfunction
 
-!procedure hidden_style()
+!function hidden_style()
   color_style()
   backgroundColor BACKGROUND
   borderColor BOXBG
   'borderColor BACKGROUND
-!endprocedure
+!endfunction
 
-!procedure accent_style()p
+!function accent_style()p
   backgroundColor ACCENT
   borderColor ACCENTDARK
-!endprocedure
+!endfunction
 
-!procedure  arrow_style()
+!function  arrow_style()
   arrowColor ARROWCOLOR
   arrowFontName FONTNAME
   arrowFontColor ARROWFONTCOLOR
   arrowFontSize FONTSIZE
-!endprocedure
+!endfunction
 
 '-----------------------------------------------------------------------------
 
