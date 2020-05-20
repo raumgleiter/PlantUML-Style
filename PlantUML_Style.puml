@@ -107,6 +107,9 @@ skinparam ActivityDiamondBackgroundColor BOXBG
 skinparam ActivityDiamondBorderColor BORDERCOLOR
 skinparam ActivityDiamondFontColor PRIMARY
 
+skinparam PartitionBorderColor BORDERCOLOR
+skinparam PartitionBackgroundColor BOXBG
+
 '-----------------------------------------------------------------------------
 
 ' Class diagrams
