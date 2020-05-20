@@ -98,6 +98,15 @@ skinparam backgroundColor BACKGROUND
  arrowFontSize FONTSIZE
 !endprocedure
 
+
+'-----------------------------------------------------------------------------
+
+' Activity diagrams
+
+skinparam ActivityDiamondBackgroundColor BOXBG
+skinparam ActivityDiamondBorderColor BORDERCOLOR
+skinparam ActivityDiamondFontColor PRIMARY
+
 '-----------------------------------------------------------------------------
 
 ' Class diagrams
@@ -118,6 +127,8 @@ skinparam class {
  attributeIconSize FONTSIZE
 }
 
+'-----------------------------------------------------------------------------
+
 ' Sequence diagrams
 
 skinparam actor {
@@ -129,6 +140,8 @@ skinparam participant {
  basic_style()
  font_style()
 }
+
+'-----------------------------------------------------------------------------
 
 ' Component diagrams
 
@@ -203,6 +216,8 @@ skinparam queue {
  font_style()
 }
 
+'-----------------------------------------------------------------------------
+
 ' Use Case diagrams
 
 skinparam usecase {
@@ -240,6 +255,8 @@ skinparam entity {
  font_style()
 }
 
+'-----------------------------------------------------------------------------
+
 ' State diagrams
 
 skinparam state {
@@ -250,6 +267,8 @@ skinparam state {
  endColor ACCENTDARK
 }
 
+'-----------------------------------------------------------------------------
+
 ' Object diagrams
 
 skinparam object {
@@ -257,6 +276,8 @@ skinparam object {
  font_style()
  arrow_style()
 }
+
+'-----------------------------------------------------------------------------
 
 ' Common
 
