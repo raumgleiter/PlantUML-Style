@@ -21,6 +21,7 @@
 !define MediumVioletRed C71585
 !define OliveDrab 6B8E23
 !define DarkOliveGreen 556B2F
+!define Gray 808080
 
 '-----------------------------------------------------------------------------
 
@@ -71,6 +72,7 @@ skinparam backgroundColor BACKGROUND
  fontColor<<GOLD>> DarkGoldenrod
  fontColor<<VIOLET>> MediumVioletRed
  fontColor<<OLIVE>> DarkOliveGreen
+ fontColor<<GRAY>> Gray
 !endprocedure
 
 !procedure basic_style()

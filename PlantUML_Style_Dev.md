@@ -43,6 +43,7 @@
 !define MediumVioletRed C71585
 !define OliveDrab 6B8E23
 !define DarkOliveGreen 556B2F
+!define Gray 808080
 
 '-----------------------------------------------------------------------------
 
@@ -93,6 +94,7 @@ skinparam backgroundColor BACKGROUND
   fontColor<<GOLD>> DarkGoldenrod
   fontColor<<VIOLET>> MediumVioletRed
   fontColor<<OLIVE>> DarkOliveGreen
+  fontColor<<GRAY>> Gray
 !endprocedure
 
 !procedure basic_style()
@@ -360,6 +362,14 @@ usecase usecase_complex<<OLIVE>> [
   on my cellphone
 ]
 usecase usecase_pretty<<GREEN>> [
+  <$phone>
+  Call me!
+]
+usecase usecase_pretty_test<<GRAY>> [
+  <$phone>
+  Call me!
+]
+node usecase_pretty_test_node<<GRAY>> [
   <$phone>
   Call me!
 ]
