@@ -64,15 +64,25 @@ skinparam backgroundColor BACKGROUND
 
 !procedure color_style()
  fontColor<<RED>> DarkRed
+ attributeFontColor<<RED>> DarkRed
  fontColor<<TEAL>> Teal
+ attributeFontColor<<TEAL>> Teal
  fontColor<<GREEN>> DarkGreen
+ attributeFontColor<<GREEN>> DarkGreen
  fontColor<<BLUE>> MidnightBlue
+ attributeFontColor<<BLUE>> MidnightBlue
  fontColor<<PURPLE>> DarkSlateBlue
+ attributeFontColor<<PURPLE>> DarkSlateBlue
  fontColor<<ORANGE>> Sienna
+ attributeFontColor<<ORANGE>> Sienna
  fontColor<<GOLD>> DarkGoldenrod
+ attributeFontColor<<GOLD>> DarkGoldenrod
  fontColor<<VIOLET>> MediumVioletRed
+ attributeFontColor<<VIOLET>> MediumVioletRed
  fontColor<<OLIVE>> DarkOliveGreen
+ attributeFontColor<<OLIVE>> DarkOliveGreen
  fontColor<<GRAY>> Gray
+ attributeFontColor<<GRAY>> Gray
 !endprocedure
 
 !procedure basic_style()
