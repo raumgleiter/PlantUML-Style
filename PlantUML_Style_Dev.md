@@ -180,7 +180,7 @@ skinparam stack {
 }
 
 skinparam package {
-  basic_style()
+  accent_style()
   font_style()
 }
 
