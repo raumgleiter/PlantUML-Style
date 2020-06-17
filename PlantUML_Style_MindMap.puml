@@ -1,0 +1,28 @@
+
+'******************************************************************************
+
+' MindMap diagrams
+
+<style>
+mindmapDiagram {
+  BackGroundColor BOXBG
+  LineColor SECONDARY
+  FontColor PRIMARY
+
+  .DONE * {
+    BackGroundColor White
+    LineColor Grey
+  }
+  .DONE * {
+    BackGroundColor White
+    LineColor Grey
+    FontColor Grey
+  }
+  .ACTIVE * {
+    BackGroundColor NavajoWhite
+  }
+  .RELEASE * {
+    BackGroundColor Aquamarine
+  }
+}
+</style>
