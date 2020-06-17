@@ -28,7 +28,6 @@
 !ifdef STYLE_RG
 !define ACCENT fff
 !define ACCENTDARK 333
-skinparam stereotypeCBackgroundColor ACCENTDARK
 !define PRIMARY 000
 !define SECONDARY 333
 !define ARROWCOLOR 666
@@ -37,6 +36,7 @@ skinparam stereotypeCBackgroundColor ACCENTDARK
 !define BOXBG ddd
 !define BACKGROUND fff
 skinparam backgroundColor BACKGROUND
+'skinparam stereotypeCBackgroundColor ACCENTDARK
 !endif
 
 '-----------------------------------------------------------------------------
