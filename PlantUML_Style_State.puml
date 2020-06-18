@@ -1,0 +1,9 @@
+
+'******************************************************************************
+
+' State diagrams
+
+skinparam package {
+  basic_style()
+  font_style()
+}
