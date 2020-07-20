@@ -440,6 +440,7 @@ state huii {
   }
 }
 
+lol --> rofl<<TEAL>>
 lolz --> buhh
 
 
