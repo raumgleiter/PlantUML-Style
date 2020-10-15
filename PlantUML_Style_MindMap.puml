@@ -24,5 +24,8 @@ mindmapDiagram {
   .RELEASE * {
     BackGroundColor Aquamarine
   }
+  .EXTERN * {
+    BackGroundColor Plum
+  }
 }
 </style>
